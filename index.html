@@ -13,8 +13,21 @@
         <a href="#">Sobre Mi</a>
         <a href="#">Mi Tienda</a>
         <a href="#">Personalizados</a>
-        <a href="#">Portfolio</a>
+        <a onclick="portfolio(event);" href="">Portfolio</a>
     </nav>
+    <div id="capa">
+        <video src="assets/imagenes/video1.mp4" id="video"></video>
+        <div>
+            <button onclick="reproducir();">Play</button>
+            <button onclick="pausar();">Pause</button>
+            <button onclick="cerrar();">Cerrar</button>
+            <ul>
+                <li onclick="uno();">Video 1</li>
+                <li onclick="dos();">Video 2</li>
+            </ul>
+        </div>
+    </div>
+
     <main>
         <header>
             <div>
@@ -28,7 +41,7 @@
             </div>
             <img src="assets/imagenes/irma-mask_ochopante(1).jpg" alt="imagen">
         </header>
-        <button>Prueba cambios</button>
     </main>
+    <script src="assets/js/codigo.js"></script>
 </body>
 </html>
