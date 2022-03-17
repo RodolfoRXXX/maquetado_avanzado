@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOiCnqEu92Fr1Mu51QrIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #cc1515;
+}
+section {
+  color: #a07d7d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
